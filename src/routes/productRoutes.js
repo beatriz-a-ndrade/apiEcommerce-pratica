@@ -2,7 +2,7 @@
 
 const express = require("express");
 const routes = express.Router();
-const controller = require("../controller/pacientController");
+const controller = require("../controller/productController");
 
 routes.post("/create", controller.createNewProduct);
 routes.get("/catalog", controller.getListProduct);
